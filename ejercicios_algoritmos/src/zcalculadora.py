@@ -1,4 +1,4 @@
-tipo_de_operacion=float(input("Bienvenido a la mejor calculadora. \nDefine si quieres:\n1)Sumar\n2)Restar\n3)multiplicar\n4)dividir\n5)potenciar\n")) 
+tipo_de_operacion=float(input("Bienvenido a la mejor calculadora. \nDefine si quieres:\n1)Sumar\n2)Restar\n3)Multiplicar\n4)Dividir\n5)Potenciar\n")) 
 if tipo_de_operacion == 1:
 
     dato_suma1=float(input("Ingresa la suma:\n"))
@@ -26,8 +26,8 @@ if tipo_de_operacion==4:
     print(f"Tu resultado es: \n{dato_divide3:.4f}")
     exit()
 if tipo_de_operacion==5:
-    potencia1=float(input("Ingresa la potencia: \n"))
-    potencia2=float(input("¿A cuánto?: \n"))
+    potencia1=float(input("Ingresa la base: \n"))
+    potencia2=float(input("Elevada a...: \n"))
     potencia3=float(potencia1**potencia2)
     print(f"Tu resultado es: \n{potencia3}")
     exit()
