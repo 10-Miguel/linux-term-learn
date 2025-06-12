@@ -1,4 +1,4 @@
-tipo_de_operacion=float(input("Bienvenido a la mejor calculadora. \nDefine si quieres:\n1)Sumar\n2)Restar\n3)Multiplicar\n4)Dividir\n5)Potenciar\n")) 
+tipo_de_operacion=float(input("Bienvenido a la mejor calculadora. \nDefine si quieres:\n(1) Sumar\n(2) Restar\n(3) Multiplicar\n(4) Dividir\n(5) Potenciar\n")) 
 if tipo_de_operacion == 1:
 
     dato_suma1=float(input("Ingresa la suma:\n"))
